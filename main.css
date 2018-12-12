@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.imgFolder {
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+button,
+input {
+  outline: none;
+}
+#flexList,
+#flexList2 {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+#flexList ul,
+#flexList2 ul {
+  padding: 5px 0 5px 30px;
+  margin: 0px;
+}
+#flexList ul li,
+#flexList2 ul li {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  cursor: pointer;
+  padding: 1px 0;
+}
+#flexList > ul,
+#flexList2 > ul {
+  padding: 0;
+}
+#flexList .fileFlexList,
+#flexList2 .fileFlexList {
+  color: #777777;
+}
+#flexList .fileFlexList > .exImage,
+#flexList2 .fileFlexList > .exImage {
+  background-image: url("img/image.png");
+  background-position: left 1.5px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+#flexList .fileFlexList > .unknown_file,
+#flexList2 .fileFlexList > .unknown_file {
+  background-image: url("img/unknown_file.png");
+  background-position: 1px 4px;
+  background-size: 12px 11px;
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+#flexList .fileFlexList > .file_txt,
+#flexList2 .fileFlexList > .file_txt {
+  background-image: url("img/text_file.png");
+  background-position: 1px 4px;
+  background-size: 20px 11px;
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+#flexList .folderFlexList,
+#flexList2 .folderFlexList {
+  color: #4863FF;
+}
+#flexList .folderFlexList:active,
+#flexList2 .folderFlexList:active {
+  color: #1F2B6E;
+}
+#flexList .folderFlexList > span,
+#flexList2 .folderFlexList > span {
+  background-image: url("img/folder.png");
+  background-position: left 1px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+#flexList .ulShowFlexList,
+#flexList2 .ulShowFlexList {
+  display: block;
+}
+#flexList .ulHIdeFlexList,
+#flexList2 .ulHIdeFlexList {
+  display: none;
+}

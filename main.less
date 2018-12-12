@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.imgFolder {
+    background-repeat: no-repeat;
+    padding-left: 18px;
+}
+
+button, input {
+    outline: none;
+}
+#flexList, #flexList2 {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    ul {
+        padding: 5px 0 5px 30px;
+        margin: 0px;
+        li {
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            list-style: none;
+            cursor: pointer;
+            padding: 1px 0;
+        }
+    }
+    & > ul {
+        padding: 0;
+    }
+    transition: all 0.3s;
+        .fileFlexList {
+            color: #777777;
+                & > .exImage {
+                    background-image: url("img/image.png");
+                    background-position: left 1.5px;
+                    background-size: 15px 15px;
+                    .imgFolder;
+                }
+                & > .unknown_file {
+                    background-image: url("img/unknown_file.png");
+                    background-position: 1px 4px;
+                    background-size: 12px 11px;
+                    .imgFolder;
+                }
+                & > .file_txt {
+                    background-image: url("img/text_file.png");
+                    background-position: 1px 4px;
+                    background-size: 20px 11px;
+                    .imgFolder;
+                }
+        }
+        .folderFlexList {
+            color: #4863FF;
+            &:active {
+                color: #1F2B6E;
+            }
+                & > span {
+                    background-image: url("img/folder.png");
+                    background-position: left 1px;
+                    background-size: 15px 15px;
+                    .imgFolder;
+                }
+        }
+        .ulShowFlexList {
+            display: block;
+        }
+        .ulHIdeFlexList {
+            display: none;
+        }
+}

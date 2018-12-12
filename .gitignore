@@ -1,0 +1,11 @@
+#folder ignor
+
+.idea
+.vscode
+node_modules
+src
+
+#file ignor
+
+package-lock.json
+gulpfile.js
